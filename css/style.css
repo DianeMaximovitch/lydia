@@ -1,0 +1,36 @@
+/* REBOOT */
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: var(--typo);
+}
+a { text-decoration: none; }
+
+/* CONTAINER */
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    position: relative;
+    border-top-left-radius: 200px;
+}
+
+.box-gradient {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    background: rgb(251,247,245);
+    background: linear-gradient(69deg, rgba(251,247,245,1) 0%, rgba(223,241,254,1) 35%, rgba(251,247,245,1) 100%);
+    padding: 3rem;
+}
+
+.content h2 {
+    font-size: 3.5rem;
+    color: var(--primary);
+}
+
+.content p {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
